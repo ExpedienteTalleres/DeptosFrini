@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamentos Frini</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header-logo">
+            <span class="dept">Departamentos Cosquín</span>
+        </a>
+        <nav class="nav-desktop">
+            <a href="#departamentos">Departamentos</a>
+            <a href="#comodidades">Comodidades</a>
+            <a href="#festivales">Festivales</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <a href="#contacto" class="button button-primary hidden-mobile">Reservar Ahora</a>
+    </header>
+    <button class="menu_hamburguesa" aria-label="Abrir menú">
+            <span class="material-symbols-outlined">menu</span>
+    </button>
+    <nav class="nav__ul">
+        <button class="close-menu" aria-label="Cerrar menú">&times;</button>
+        <a href="#departamentos">Departamentos</a>
+        <a href="#comodidades">Comodidades</a>
+        <a href="#festivales">Festivales</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Tu Alojamiento Ideal en Cosquín</h1>
+                <p class="desc">Disfruta de la magia del Festival Nacional de Folklore y la energía del Cosquín Rock con la comodidad y tranquilidad que mereces.</p>
+                <div class="hero-buttons">
+                    <a href="#departamentos" class="button button-primary button-large">Ver Departamentos</a>
+                    <a href="#contacto" class="button button-outline button-large">Contactar Ahora</a>
+                </div>
+            </div>
+        </section>
+        <section id="departamentos" class="section-padding bg-white">
+            <div class="container text-center">
+                <h2 class="section-title">Nuestros Departamentos</h2>
+                <p class="section-description">Cada departamento está diseñado para ofrecerte una estadía inmejorable.</p>
+                <div class="grid-3-cols">
+                    <!-- Departamento 1 -->
+                    <div class="card">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Departamento 1" class="card-image">
+                        <div class="card-header">
+                            <h3 class="card-title">Departamento 1: Espacio Familiar</h3>
+                            <p class="card-description">Ideal para grupos o familias grandes. Amplio y con todas las comodidades.</p>
+                        </div>
+                        <div class="card-content">
+                            <ul class="list-disc">
+                                <li>2 Dormitorio amplios</li>
+                                <li>Cocina completa</li>
+                                <li>Baño completo</li>
+                                <li>Patio con parrilla</li>
+                            </ul>
+                            <a href="#contacto" class="button button-primary button-full-width">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Departamento 2 -->
+                    <div class="card">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Departamento 2" class="card-image">
+                        <div class="card-header">
+                            <h3 class="card-title">Departamento 2</h3>
+                            <p class="card-description">Perfecto para familias y grupos pequeños.</p>
+                        </div>
+                        <div class="card-content">
+                            <ul class="list-disc">
+                                <li>2 Dormitorios</li>
+                                <li>Living-comedor</li>
+                                <li>Cocina completa</li>
+                                <li>Baño completo</li>
+                            </ul>
+                            <a href="#contacto" class="button button-primary button-full-width">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <!-- Departamento 3 -->
+                    <div class="card">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Departamento 3" class="card-image">
+                        <div class="card-header">
+                            <h3 class="card-title">Departamento 3</h3>
+                            <p class="card-description">Disfruta de un departamento para dos personas</p>
+                        </div>
+                        <div class="card-content">
+                            <ul class="list-disc">
+                                <li>1 Dormitorio</li>
+                                <li>Cocina completa</li>
+                                <li>Baño completo</li>
+                                <li>Patio con parrilla</li>
+                            </ul>
+                            <a href="#contacto" class="button button-primary button-full-width">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="comodidades" class="section-padding bg-light-amber">
+            <div class="container text-center">
+                <h2 class="section-title">Comodidades Pensadas para Vos</h2>
+                <p class="section-description">Nos aseguramos de que tu estadía sea lo más placentera posible con servicios y facilidades de primera.</p>
+                <div class="grid-3-cols">
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            wifi
+                        </span>
+                        <!-- Icono de Wi-Fi -->
+                        <h3>Wi-Fi Gratuito</h3>
+                        <p>Mantente conectado con internet de alta velocidad.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            car_lock
+                        </span>
+                        <!-- Icono de Auto -->
+                        <h3>Estacionamiento Privado</h3>
+                        <p>Seguridad y comodidad para tu vehículo.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            kitchen
+                        </span>
+                        <!-- Icono de Cocina -->
+                        <h3>Cocina Equipada</h3>
+                        <p>Prepara tus comidas favoritas como en casa.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            security
+                        </span>
+                        <!-- Icono de Seguridad -->
+                        <h3>Seguridad</h3>
+                        <p>Seguridad 24/7 garantizada.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        <!-- Icono de Ubicación -->
+                        <h3>Ubicación Estratégica</h3>
+                        <p>Cerca de los festivales y el centro de la ciudad.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="material-symbols-outlined">
+                            cottage
+                        </span>
+                        <!-- Icono de Ambiente -->
+                        <h3>Ambientes Confortables</h3>
+                        <p>Espacios acogedores para tu descanso.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Festivales -->
+        <section id="festivales" class="section-padding bg-white">
+            <div class="container text-center">
+                <h2 class="section-title">Viví la Magia de los Festivales</h2>
+                <p class="section-description">Cosquín es el corazón de la cultura y la música Argentina. Nuestros departamentos son tu base perfecta para disfrutar al máximo.</p>
+                <div class="grid-2-cols">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon-title">
+                                <span class="material-symbols-outlined">
+                                    music_note
+                                </span>
+                                <h3 class="card-title">Festival Nacional de Folklore</h3>
+                            </div>
+                            <p class="card-description">El evento más importante del folklore argentino. Nueve lunas de música, danza y tradición.</p>
+                        </div>
+                        <div class="card-content">
+                            <p>Sumérgete en la cultura argentina con artistas de renombre y peñas tradicionales. Nuestros departamentos te ofrecen la cercanía ideal para no perderte nada.</p>
+                            <div class="card-info-row">
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+                                <span>Enero (Fechas exactas varían anualmente)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon-title">
+                                <span class="material-symbols-outlined">
+                                    music_note
+                                </span>
+                                <h3 class="card-title">Cosquín Rock</h3>
+                            </div>
+                            <p class="card-description">El festival de rock más grande de Argentina. Dos días de pura energía y los mejores artistas.</p>
+                        </div>
+                        <div class="card-content">
+                            <p>Vive la experiencia del rock en un entorno natural inigualable. Con nuestros departamentos, tendrás un lugar cómodo para recargar energías después de cada jornada.</p>
+                            <div class="card-info-row">
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+                                <span>Febrero (Fechas exactas varían anualmente)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservas -->
+        <section id="contacto" class="section-padding bg-light-amber">
+            <div class="container text-center">
+                <div class="space-y-6 mb-12">
+                    <h2 class="section-title">¡Reserva tu Estadía aca!</h2>
+                    <p class="section-description">No esperes más para asegurar tu lugar en Cosquín. Contáctanos hoy mismo para consultar disponibilidad y tarifas.</p>
+                </div>
+                <div class="contact-buttons-group">
+                    <a href="tel:+5493541697410" class="button button-primary button-large button-full-width-mobile">Llamar Ahora</a>
+                    <a href="deptosfrini@gmail.com" class="button button-outline button-large button-full-width-mobile">Enviar Email</a>
+                </div>
+                <p class="contact-address">También puedes encontrarnos en: <span>Antartida Argentina 1575, Cosquín, Córdoba</span></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; <span id="current-year"></span> Departamentos Frini Cosquín.</p>
+        <nav class="footer-nav">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
