@@ -591,13 +591,16 @@ ul {
 
 @media (max-width: 768px) { 
     .menu_hamburguesa {
-        display: flex;
+        display: none;
         position: absolute;
         margin-left: 0;
         margin-top: 2.5%;
         z-index: 1001;
     }
     .dept {
+        display: none;
+    }
+    .header {
         display: none;
     }
 }
